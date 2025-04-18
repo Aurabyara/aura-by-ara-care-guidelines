@@ -34,6 +34,7 @@ h1 {
     margin-bottom: 20px;
     border: 3px solid #88546f; /* Optional: adds a subtle colored ring */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
 
 .tagline {
     font-style: italic;
