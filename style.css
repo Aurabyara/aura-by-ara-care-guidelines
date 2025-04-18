@@ -32,12 +32,13 @@ h1 {
 }
 
 .logo {
-    max-width: 200px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
     margin-bottom: 20px;
-    border-radius: 8px; /* Optional: for soft edges */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle depth */
-}
-
+    border: 3px solid #88546f; /* Optional: adds a subtle colored ring */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 
 .tagline {
     font-style: italic;
